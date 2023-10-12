@@ -1,0 +1,28 @@
+#navbarSec {
+  background-color: $blackColor;
+  a {
+    color: $white;
+  }
+  .active a {
+    color: $red;
+  }
+  ul {
+    li {
+      margin: 0px 10px;
+    }
+  }
+
+  .dropdown-menu {
+    background-color: $blackColor;
+    padding: 20px;
+    border-top: $red-border-top;
+    margin-top: 10px;
+    .dropdown-divider {
+        border-top: 1px solid rgb(233, 236, 239,0.2);
+    }
+    .dropdown-item:hover{
+        background-color: transparent;
+        color: $red;
+    }
+  }
+}
