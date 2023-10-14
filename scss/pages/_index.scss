@@ -11,3 +11,25 @@
     background-color: $red;
   }
 }
+
+.DownloadTheme {
+  background-color: $red;
+  color: $white;
+}
+
+#cekasTheme {
+  .btn {
+    border: 1px solid black;
+  }
+  .bg-transparent:hover {
+    background-color: $red !important;
+    border: none;
+    color: $white;
+  }
+  // .card{
+  //   border: none;
+  // }
+  .card-text {
+    color: $grey !important;
+  }
+}
