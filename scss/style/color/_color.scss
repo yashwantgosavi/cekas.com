@@ -1,4 +1,9 @@
-$blackColor: #222222; 
+$blackColor: #222222;
 $white: #fff;
 $red: #f43438;
 $grey: #636363;
+
+.bg-success {
+  background-color: $red !important;
+  font-size: 100px;
+}
